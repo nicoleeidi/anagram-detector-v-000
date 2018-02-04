@@ -13,7 +13,7 @@ class Anagram
     # end
     # winningarray
       if possiblematch.split("").sort != @word.split("").sort
-        array.delete!(possiblematch)
+        array.delete(possiblematch)
       end
     end
     array
