@@ -14,10 +14,10 @@ class Anagram
     # winningarray
       if possiblematch.split("").sort != @word.split("").sort
         array.delete!(possiblematch)
-      end 
-    end 
-    array 
-    
+      end
+    end
+    array
+
   end
 
 end
